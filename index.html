@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <section class="whole-con">
+      <div class="section-center">
+        <!-- container for both sub parts - parents for cols at bigger screen-->
+
+        <!-- Results container-->
+        <div class="results-section">
+          <!-- child for bigger screen -->
+
+          <h1 class="your-results-text">Your Result</h1>
+          <!-- container for circle with score -->
+          <div class="rnum-div">
+            <h2 class="score">76</h2>
+            <p class="outof">of 100</p>
+          </div>
+          <!-- end container for circle -->
+          <h3 class="great">Great</h3>
+          <p class="result-info">
+            You scored higher than 65% of the people who have taken these
+            tests.
+          </p>
+        </div>
+        <!-- end results container-->
+        <!-- ========================================================================================-->
+        <!-- summary container-->
+        <section class="summary-section">
+            <h3 class="summary-title">Summary</h3>
+        <div class="summary-div reaction">
+          <img
+            src="./assets/images/icon-reaction.svg"
+            alt="reaction image"
+            class="s-icon"
+          />
+          <p class="s-text">Reaction</p>
+          <p class="s-result"><span>80</span> / 100</p>
+        </div>
+        <div class="summary-div memory">
+          <img
+            src="./assets/images/icon-memory.svg"
+            alt="memory image"
+            class="s-icon"
+          />
+          <p class="s-text">Memory</p>
+          <p class="s-result"><span>92</span> / 100</p>
+        </div>
+        <div class="summary-div verbal">
+          <img
+            src="./assets/images/icon-verbal.svg"
+            alt="verbal image"
+            class="s-icon"
+          />
+          <p class="s-text">Verbal</p>
+          <p class="s-result"><span>61</span> / 100</p>
+        </div>
+        <div class="summary-div visual">
+          <img
+            src="./assets/images/icon-visual.svg"
+            alt="visual image"
+            class="s-icon"
+          />
+          <p class="s-text">Visual</p>
+          <p class="s-result"><span>72</span> / 100</p>
+          
+        </div>
+        <a href="#" class="btn">Continue</a>
+        <!-- end summary container-->
+      </div>
+    </section>
+
+
+    </section>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>
+    </div>
+  </body>
+</html>
